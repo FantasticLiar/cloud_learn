@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+server:
+  port: 10005
+spring:
+  application:
+    name: service-redis
+  redis:
+    host: localhost
+    password: root
